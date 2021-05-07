@@ -56,7 +56,7 @@ plugins:
 permalink: /:title/
 header_pages:
   - index.md
-  - about.md      
+  - about.md
   - contact.md
 
 style: dark # dark (default), light or hacker
