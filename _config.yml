@@ -28,7 +28,7 @@ url: "https://sysctl.id" # the base hostname & protocol for your site, e.g. http
 github_username:  awcodify
 
 # Build settings
-remote_theme: b2a3e8/jekyll-theme-console
+theme: jekyll-theme-console
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -54,3 +54,11 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 permalink: /:title/
+header_pages:
+  - index.md
+  - about.md
+
+style: dark # dark (default), light or hacker
+listen_for_clients_preferred_style: true # false (default) or true
+
+footer: 'Sharing is caring is learning'
