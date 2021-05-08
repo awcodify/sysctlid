@@ -2,6 +2,7 @@
 layout: post
 title:  "Mengapa Performane Engineering Diperlukan?"
 categories: performance-engineering
+tags: performance
 ---
 
 # Seberapa Penting *Performance Engineering*?
