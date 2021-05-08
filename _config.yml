@@ -62,5 +62,6 @@ header_pages:
 
 style: dark # dark (default), light or hacker
 listen_for_clients_preferred_style: true # false (default) or true
+google_analytics: G-MLFFR89WJX
 
 footer: '&copy; 2021 sysctl.id'
