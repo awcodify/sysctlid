@@ -3,6 +3,7 @@ layout: post
 title:  "Apa itu Performance Engineering ?"
 categories: performance-engineering
 tags: performance 
+author: awcodify
 ---
 Sebelum terlalu jauh membahas bagaimana melakukan *performance engineering*,  ada baiknya kita mengetahui terlebih dahulu gambaran singkat tentang *performance engineering*. Displin ilmu ini akan melakukan tes, analisa, rekomendasi, hingga *tuning* terhadap suatu sistem / aplikasi untuk memastikan semuanya dapat berjalan dengan baik secara teknikal.
 <!--more-->
