@@ -66,3 +66,10 @@ google_analytics: G-MLFFR89WJX
 excerpt_separator: <!--more-->
 
 footer: '&copy; 2021 sysctl.id'
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
