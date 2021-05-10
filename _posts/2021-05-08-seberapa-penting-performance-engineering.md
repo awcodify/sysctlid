@@ -18,7 +18,7 @@ Dengan *performance engineering* kita akan melakukan *performance test* untuk me
 
  Jika kembali ke artikel sebelumnya, [apa itu performance engineering]({%  post_url  2021-05-07-apa-itu-performance-engineering %}), kita akan mengetahui bahwa sebagai seorang *performance engineer* sudah seharusnya memiliki kemampuan analisis yang baik untuk mencari *bottleneck* dan solusi yang terbaik untuk meningkatkan performa. Tapi IMHO ini bukanlah hal yang ideal untuk kita mencari solusi saat *injury time*, saat - saat dimana promo sudah ada di depan mata.
 
-Disinilah sebenarnya disinilah `art of work` dari *performance engineering*. Dimana jika kita rutin menerapkannya dalam siklus development, tidak hanya departemen teknologi yang tahu kapasitas dan kemampuan sistem kita, sehingga dalam *decision making* akan mengurangi angka - angka magic (ekspektasi trafik dari tim bisnis yang kadang diluar nalar tech team 😅).
+Disinilah sebenarnya `art of work` dari *performance engineering*. Dimana jika kita rutin menerapkannya dalam siklus development, tidak hanya departemen teknologi yang tahu kapasitas dan kemampuan sistem kita, sehingga dalam *decision making* akan mengurangi angka - angka magic (ekspektasi trafik dari tim bisnis yang kadang diluar nalar tech team 😅).
 
 # Cost Optimization melalui Performance Engineering?
 
