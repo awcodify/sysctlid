@@ -63,5 +63,6 @@ header_pages:
 style: terminal # dark (default), light or hacker
 # listen_for_clients_preferred_style: true # false (default) or true
 google_analytics: G-MLFFR89WJX
+excerpt_separator: <!--more-->
 
 footer: '&copy; 2021 sysctl.id'
