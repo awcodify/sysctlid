@@ -2,6 +2,7 @@
 layout: post
 title:  "Mengapa Performane Engineering Diperlukan?"
 categories: performance-engineering
+description: Banyak orang yang belum menyadari bahwa *performance engineering* adalah bagian yang paling penting untuk menjaga kualitas sistem bahkan berjalannya bisnis, bagaimana bisa? Mari kita bahas.
 tags: performance
 author: awcodify
 ---
@@ -31,4 +32,4 @@ Tanpa melakukan *research* yang baik, kita tidak dapat mengetahui apa yang harus
 
 Dengan data historical dari *performance engineering*, kita akan mengetahui skala dan perbandingan penggunaan *resources*, kita juga tahu sisi mana yang membutuhkan resource lebih banyak dan mana yang lebih sedikit, bahkan kita juga mengetahui mana *service* yang *critical* dan yang tidak. Tentu saja dengan berbekal data - data ini, optimisasi yang kita lakukan akan menjadi lebih tepat sasaran. 
 
-Intinya *performance engineering* bertujuan membuat development cycle kita menjadi lebih efektif dan efisien, serta mengurangi kesalahan - kesalahan kecil yang seharusnya tidak terjadi apalagi di *production-level*. Sudah ada gambaran kan? Selanjutnya kita akan membahas hal apa saja yang perlu dimiliki seseorang untuk menjadi seorang *performance engineer*?
+Intinya *performance engineering* bertujuan membuat development cycle kita menjadi lebih efektif dan efisien, serta mengurangi kesalahan - kesalahan kecil yang seharusnya tidak terjadi apalagi di *production-level*. Sudah ada gambaran kan? Selanjutnya kita akan membahas hal apa saja yang perlu dimiliki seseorang untuk menjadi seorang *performance engineer*?.

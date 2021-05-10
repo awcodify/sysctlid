@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Menjadi Seorang Performance Engineer"
+description: Gambaran stack apa aja yang biasa digunakan dan apa saja yang dikerjakan seorang *performance engineer*
 categories: performance-engineering
 tags: performance
 author: root
