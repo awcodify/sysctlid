@@ -5,6 +5,7 @@ description: Gambaran stack apa aja yang biasa digunakan dan apa saja yang diker
 categories: performance-engineering
 tags: performance
 author: root
+is_pinned: true
 ---
 <!--more-->
 # Performance Engineering Stack
