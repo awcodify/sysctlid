@@ -15,6 +15,7 @@ Namun, salah satu fitur yang biasa ada di *modern code editor* adalah kemudahan 
 * `gd` akan ke *local definition*.
 * `gD` akan ke  *global definition*.
 
+
 Lebih lengkap bisa dibaca di: https://vim.fandom.com/wiki/Go_to_definition_using_g. Atau kalo mau *the hard way* bisa membuat custom function seperti dibawah:
 
 ```
