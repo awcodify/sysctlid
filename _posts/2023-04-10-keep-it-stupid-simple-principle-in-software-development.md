@@ -29,6 +29,7 @@ fn calculate_sum(numbers: &[i32]) -> i32 {
 This code calculates the sum of an array of integers using a simple loop. It follows the KISS principle by using a straightforward algorithm and avoiding unnecessary complexity.
 
 **Example 2: Complex Rust code without KISS principle**
+
 ```rust
 fn calculate_sum(numbers: &[i32]) -> i32 {
     let sum = numbers.iter()
@@ -37,6 +38,7 @@ fn calculate_sum(numbers: &[i32]) -> i32 {
         .fold(0, |acc, n| acc + n);
     sum
 }
+```
 This code also calculates the sum of an array of integers, but it does so using a more complex algorithm that involves filtering and mapping the values before summing them up. While this code might be more efficient in some cases, it violates the KISS principle by adding unnecessary complexity to the code.
 
 **Example 3: Simple Rust code with KISS principle**
