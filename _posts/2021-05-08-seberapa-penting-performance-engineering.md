@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mengapa Performane Engineering Diperlukan?"
+title:  "Mengapa Performance Engineering Diperlukan?"
 categories: performance-engineering
 description: Banyak orang yang belum menyadari bahwa *performance engineering* adalah bagian yang paling penting untuk menjaga kualitas sistem bahkan berjalannya bisnis, bagaimana bisa? Mari kita bahas.
 tags: performance
