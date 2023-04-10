@@ -38,8 +38,7 @@ fn calculate_sum(numbers: &[i32]) -> i32 {
             sum += number;
         }
     }
-  sum
-}
+    sum
 }
 ```
 This code also calculates the sum of an array of integers, but it does so using a more complex algorithm that involves filtering ("if" conditional) the values before summing them up. While this code might be more efficient in some cases, it violates the KISS principle by adding unnecessary complexity to the code.
