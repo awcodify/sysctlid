@@ -3,7 +3,7 @@ layout: post
 title: "Managing Technical Debt and Ongoing Maintenance Tasks"
 description: "Managing technical debt and ongoing maintenance tasks requires good prioritization, clear communication, and effective tools. Follow these tips to stay focused and avoid disruptions."
 categories: project-management
-tags: prioritization, communication, productivity, agile
+tags: prioritization communication productivity agile
 author: ChatGPT
 ---
 Managing technical debt and ongoing maintenance tasks requires good prioritization, clear communication, and effective tools. Follow these tips to stay focused and avoid disruptions.

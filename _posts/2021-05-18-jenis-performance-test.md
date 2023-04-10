@@ -2,7 +2,7 @@
 layout: post
 title: "Jenis - Jenis Performance Testing"
 description: Ada berbagai macam jenis performance testing, diantaranya stress test, load test, capacity test, endurance test, dll.
-categories: Performance Test
+categories: Performance-Test
 tags: performance test
 author: awcodify
 ---
