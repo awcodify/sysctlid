@@ -31,7 +31,7 @@ This code calculates the sum of an array of integers using a simple loop. It fol
 **Example 2: Complex Rust code without KISS principle**
 
 ```rust
-fn calculate_sum(numbers: &[i32]) -> i32 {
+fn calculate_sum_of_odd(numbers: &[i32]) -> i32 {
     let sum = numbers.iter()
         .filter(|&n| n % 2 == 0)
         .map(|n| n * 2)
@@ -39,7 +39,7 @@ fn calculate_sum(numbers: &[i32]) -> i32 {
     sum
 }
 ```
-This code also calculates the sum of an array of integers, but it does so using a more complex algorithm that involves filtering and mapping the values before summing them up. While this code might be more efficient in some cases, it violates the KISS principle by adding unnecessary complexity to the code.
+This code calculates the sum of odd numbers. The problem with this code in terms of adhering to the KISS principle is the unnecessary additional code at the end (".fold"), which makes it more complex than it needs to be.
 
 **Example 3: Simple Rust code with KISS principle**
 ```rust
