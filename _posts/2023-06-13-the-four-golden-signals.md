@@ -35,5 +35,7 @@ Saturation refers to the utilization or capacity of system resources. Monitoring
 * Identify any resources operating at or near maximum capacity.
 * Set alerts for critical resource saturation levels to prevent system degradation or failures.
 
+For a visual representation and practical examples of implementing the Four Golden Signals in Grafana, you can check out the [Grafana Demo](https://play.grafana.org/d/000000109/the-four-golden-signals?orgId=1)
+
 ## Conclusion
 The Four Golden Signals provide a framework for monitoring and assessing the performance and health of a system. By focusing on latency, traffic, errors, and saturation, you can gain valuable insights into your system's behavior and address potential issues proactively. Implementing appropriate monitoring and alerting mechanisms based on these signals can help ensure the reliability and optimal performance of your systems.
