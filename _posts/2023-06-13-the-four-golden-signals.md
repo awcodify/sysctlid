@@ -9,7 +9,7 @@ author: Awcodify
 We will delve into the concept of observability and explore the Four Golden Signals framework. By understanding these key metrics, you will be able to effectively monitor and assess the performance and health of your systems.
 <!--more-->
 
-Monitoring and observability are crucial aspects of managing modern systems. The "Four Golden Signals" is a framework that helps in understanding the performance and health of a system based on four key metrics: latency, traffic, errors, and saturation. This Confluence page provides an overview of these signals and their significance in monitoring system performance.
+Monitoring and observability are crucial aspects of managing modern systems. The "Four Golden Signals" is a framework that helps in understanding the performance and health of a system based on four key metrics: latency, traffic, errors, and saturation. This article provides an overview of these signals and their significance in monitoring system performance.
 
 ## 1. Latency
 Latency is the time taken for a system to respond to a request. Monitoring latency helps in assessing the responsiveness and efficiency of the system. Key points to consider when monitoring latency are:
