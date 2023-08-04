@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 name: ./sysctl.id
-title: Performance Engineering Guide
+title: ./sysctl.id
 email: awcodify@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Performance engineering really help us to handle expected or even
@@ -29,11 +29,37 @@ github_username:  awcodify
 github: [metadata]
 
 # Build settings
-remote_theme: awcodify/jekyll-theme-console
+remote_theme: awcodify/long-haul
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+
+# long-haul theme config
+header: normal
+url: https://sysctl.id
+permalink: /:title/
+sass:
+    style: compressed
+markdown: kramdown
+highlighter: rouge
+
+paginate: 5
+
+navigation:
+    - title: Home
+      url: /
+    - title: About
+      url: /about
+    - title: Tags
+      url: /tags
+    - title: Contact
+      url: /contact
+
+social:
+    github: awcodify
+    email: awcodify@gmail.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,33 +69,24 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-permalink: /:title/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 header_pages:
   - tags.html
   - about.md
   - contact.md
 
-style: terminal # dark (default), light or hacker
+# style: terminal # dark (default), light or hacker
 # listen_for_clients_preferred_style: true # false (default) or true
 google_analytics: G-MLFFR89WJX
 excerpt_separator: <!--more-->
-
-footer: '&copy; 2021 sysctl.id'
-defaults:
-  -
-    scope:
-      path: ""      # empty string for all files
-      type: posts   # limit to posts
-    values:
-      is_post: true # automatically set is_post=true for all posts

@@ -1,0 +1,60 @@
+---
+layout: default
+title: A Software Engineer Must Read!
+pagination: 
+  enabled: true
+---
+
+<div class="home" id="home">
+	<h1 class="pageTitle">Recent Posts</h1>
+	<div class="posts noList">
+		{%- for post in paginator.posts -%}
+		<article>
+			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+			<h3>
+				<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+			</h3>
+			<p>
+				{%- if post.description -%}{{ post.description }}{%- else -%}{{
+				post.excerpt | strip_html }}{%- endif -%}
+			</p>
+		</article>
+		{%- endfor -%}
+	</div>
+	<!-- Pagination links -->
+	<div class="pagination">
+		{% if paginator.page_trail %}
+			{% for trail in paginator.page_trail %}
+				<a  {% if page.url == trail.path %}class="selected"{% endif %}
+					class="button__outline "href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+			{% endfor %}
+		{% endif %}
+	</div>
+
+	{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="button__outline" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% else %}
+    <span class="button__outline">&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em class="selected">{{ page }}</em>
+    {% elsif page == 1 %}
+      <a class="button__outline" href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a class="button__outline" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="button__outline" href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+    <span class="button__outline">Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+</div>
+
