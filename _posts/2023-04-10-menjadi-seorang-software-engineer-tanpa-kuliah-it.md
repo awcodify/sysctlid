@@ -5,11 +5,12 @@ description: Apakah harus kuliah di bidang IT untuk menjadi seorang software eng
 categories: Karir Pemrograman
 tags: softwareengineer career development
 author: Awcodify
+language: bahasa-indonesia
 ---
 Banyak orang yang ingin menjadi software engineer, tetapi tidak memiliki latar belakang pendidikan di bidang IT. Artikel ini akan membahas beberapa cara untuk belajar pemrograman dan menjadi software engineer tanpa harus kuliah di bidang IT.
 <!--more-->
 
-Banyak orang yang tertarik untuk menjadi software engineer, tetapi tidak memiliki latar belakang pendidikan di bidang teknologi informasi. Mungkin saja Anda sedang mempertimbangkan untuk menjadi software engineer, tetapi tidak memiliki gelar kuliah di bidang IT atau kurang yakin apakah harus kuliah di bidang IT untuk mencapai tujuan karir tersebut. Pertanyaannya adalah, apakah harus kuliah di bidang IT untuk menjadi seorang software engineer?
+<span class="dropcap">B</span>anyak orang yang tertarik untuk menjadi software engineer, tetapi tidak memiliki latar belakang pendidikan di bidang teknologi informasi. Mungkin saja Anda sedang mempertimbangkan untuk menjadi software engineer, tetapi tidak memiliki gelar kuliah di bidang IT atau kurang yakin apakah harus kuliah di bidang IT untuk mencapai tujuan karir tersebut. Pertanyaannya adalah, apakah harus kuliah di bidang IT untuk menjadi seorang software engineer?
 
 Jawabannya tidak selalu harus. Terdapat banyak jalur untuk belajar pemrograman dan menjadi software engineer, bahkan tanpa harus mengambil jurusan teknik informatika atau ilmu komputer.
 

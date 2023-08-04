@@ -5,11 +5,12 @@ description: Ada berbagai macam jenis performance testing, diantaranya stress te
 categories: Performance-Test
 tags: performance test
 author: awcodify
+language: bahasa-indonesia
 ---
 Ada berbagai macam performance testing. Hal ini dibedakan berdasarkan *goal* dan cara melakukan testnya. Mari kita bahas satu per satu.
 <!--more-->
-# Jenis - Jenis Performance Test
-Ada berbagai macam performance testing. Hal ini dibedakan berdasarkan *goal* dan cara melakukan testnya. Mari kita bahas satu per satu. *discalimer: setiap organisasi mungkin memiliki istilah yang berbeda. Namun, pada dasarnya definisinya sama.*
+
+<span class="dropcap">A</span>da berbagai macam performance testing. Hal ini dibedakan berdasarkan *goal* dan cara melakukan testnya. Mari kita bahas satu per satu. *discalimer: setiap organisasi mungkin memiliki istilah yang berbeda. Namun, pada dasarnya definisinya sama.*
 
 ## Load Testing
 Jenis tes ini akan dilakukan dengan menentukan *target load*. Biasanya digunakan untuk persiapan menghadapi sebuah event musiman yang trafiknya bertambah seiring waktu. Contohnya sistem kita kan melakukan penjualan mudik lebaran. Tentunya semakin mendekati waktu lebaran, maka ekpektasinya sistem akan menerima trafik yang lebih banyak. Jadi, dengan melakukan *load testing* kita akan mengatahui apakah sistem kita sanggup *handle* trafik sesuai ekspektasi kita.

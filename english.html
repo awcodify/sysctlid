@@ -1,23 +1,27 @@
 ---
 layout: default
-title: A Software Engineer Must Read!
+title: Artikel Bahasa Indonesia
+permalink: /english/
 pagination: 
   enabled: true
 ---
 
 <div class="home" id="home">
-	<h1 class="pageTitle">Recent Posts</h1>
+	<h1 class="pageTitle">Article in English</h1>
 	<div class="posts noList">
-		{%- for post in paginator.posts -%}
+		{%- for post in site.posts -%}
+		{%- unless post.language contains 'bahasa-indonesia' -%}
 		<article>
 			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
 			<h3>
 				<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
 			</h3>
 			<p>
-				{{ post.excerpt | strip_html }}
+				{%- if post.description -%}{{ post.description }}{%- else -%}{{
+				post.excerpt | strip_html }}{%- endif -%}
 			</p>
 		</article>
+		{%- endunless -%}
 		{%- endfor -%}
 	</div>
 

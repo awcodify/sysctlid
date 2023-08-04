@@ -46,12 +46,17 @@ markdown: kramdown
 highlighter: rouge
 
 paginate: 5
+paginate_path: "/page/page:num/"
 
 navigation:
     - title: Home
       url: /
     - title: About
       url: /about
+    - title: English
+      url: /english
+    - title: Indonesia
+      url: /bahasa-indonesia
     - title: Tags
       url: /tags
     - title: Contact
@@ -90,3 +95,6 @@ header_pages:
 # listen_for_clients_preferred_style: true # false (default) or true
 google_analytics: G-MLFFR89WJX
 excerpt_separator: <!--more-->
+
+disqus:
+    shortname: sysctl-id

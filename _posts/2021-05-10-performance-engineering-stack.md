@@ -6,10 +6,11 @@ categories: performance-engineering
 tags: performance
 author: awcodify 
 is_pinned: true
+language: bahasa-indonesia
 ---
 <!--more-->
-# Performance Engineering Stack
-Setelah kita mengenal [apa itu performance engineering]({% post_url 2021-05-07-apa-itu-performance-engineering %}) dan [mengapa kita Membutuhkannya]({% post_url 2021-05-08-seberapa-penting-performance-engineering %}), sekarang sebelum membahas lebih dalam, mari kita lihat gambaran stack apa aja yang biasa digunakan dan apa saja yang dikerjakan seorang *performance engineer*. *Disclaimer: tasks dan stack tiap perusahaan pasti berbeda - beda. Apa yang saya tulis disini adalah pengalaman saya pribadi.*
+
+<span class="dropcap">S</span>etelah kita mengenal [apa itu performance engineering]({% post_url 2021-05-07-apa-itu-performance-engineering %}) dan [mengapa kita Membutuhkannya]({% post_url 2021-05-08-seberapa-penting-performance-engineering %}), sekarang sebelum membahas lebih dalam, mari kita lihat gambaran stack apa aja yang biasa digunakan dan apa saja yang dikerjakan seorang *performance engineer*. *Disclaimer: tasks dan stack tiap perusahaan pasti berbeda - beda. Apa yang saya tulis disini adalah pengalaman saya pribadi.*
 
 Dalam dunia *performance engineering*, saat melakukan *performance test* ada beberapa fase yang akan kita lakukan:
 

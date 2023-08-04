@@ -8,11 +8,10 @@ author: Awcodify
 ---
 Discover the ultimate container orchestration showdown between Kubernetes and Docker Swarm. Explore their features, scalability, and use-cases, empowering your infrastructure engineering decisions. Unravel the pros and cons, performance, high-availability, and integrations, while optimizing your cloud-native, microservices-focused software engineering endeavors
 <!--more-->
-# Container Orchestration Showdown: Kubernetes vs. Docker Swarm
 
 ## Introduction to Container Orchestration
 
-Container orchestration plays a crucial role in modern application deployment and scaling. Two prominent solutions in this space are Kubernetes and Docker Swarm. In this article, we'll compare these two container orchestration platforms to help you make an informed decision based on your specific needs.
+<span class="dropcap">C</span>ontainer orchestration plays a crucial role in modern application deployment and scaling. Two prominent solutions in this space are Kubernetes and Docker Swarm. In this article, we'll compare these two container orchestration platforms to help you make an informed decision based on your specific needs.
 
 ## Kubernetes
 

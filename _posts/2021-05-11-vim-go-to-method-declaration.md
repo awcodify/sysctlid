@@ -8,7 +8,7 @@ author: awcodify@gmail.com
 ---
 Salah satu fitur paling populer yang membuat kita menjadi produktif di text-editor modern adalah kita dapat langsung menuju *method definition* saat kita ctrl+klik pada nama method. Bagaimana melakukannya di VIM?
 <!--more-->
-Sekarang 2021 dan saya masih menjadi pengguna setia VIM (sebenarnya NVIM sih 🙂). Tidak perlu berdebat tentang *code editor* terbaik, karena itu adalah preferensi dan sesuai dengan kebutuhan masing - masing. Alasan kuat saya sampai saat ini adalah saya sudah membuat VIM bisa *handle* semua kebutuhan saya. Kemudian karena sebagai *performance engineer* banyak bermain - main di terminal, saya merasa lebih produktif jika banyak hal dapat di lakukan hanya di terminal saja tanpa harus berpindah - pindah tool.
+<span class="dropcap">S</span>ekarang 2021 dan saya masih menjadi pengguna setia VIM (sebenarnya NVIM sih 🙂). Tidak perlu berdebat tentang *code editor* terbaik, karena itu adalah preferensi dan sesuai dengan kebutuhan masing - masing. Alasan kuat saya sampai saat ini adalah saya sudah membuat VIM bisa *handle* semua kebutuhan saya. Kemudian karena sebagai *performance engineer* banyak bermain - main di terminal, saya merasa lebih produktif jika banyak hal dapat di lakukan hanya di terminal saja tanpa harus berpindah - pindah tool.
 
 Namun, salah satu fitur yang biasa ada di *modern code editor* adalah kemudahan untuk mengakses *method definition* hanya dengan satu  (ctrl+klik). Tapi tenang saja, kita juga bisa melakukannya di VIM dengan:
 

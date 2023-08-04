@@ -5,12 +5,12 @@ description: Displin ilmu ini akan melakukan tes, analisa, rekomendasi, hingga *
 categories: performance-engineering
 tags: performance 
 author: awcodify
+language: bahasa-indonesia
 ---
 Sebelum terlalu jauh membahas bagaimana melakukan *performance engineering*,  ada baiknya kita mengetahui terlebih dahulu gambaran singkat tentang *performance engineering*. Displin ilmu ini akan melakukan tes, analisa, rekomendasi, hingga *tuning* terhadap suatu sistem / aplikasi untuk memastikan semuanya dapat berjalan dengan baik secara teknikal.
 <!--more-->
 
-# Apa itu Performance Engineering ?
-Displin ilmu ini akan melakukan tes, analisa, rekomendasi, hingga *tuning* terhadap suatu sistem / aplikasi untuk memastikan semuanya dapat berjalan dengan baik secara teknikal (contohnya; *response time, throughput, CPU utilization*), bebeda dengan *Quality Assurance* (QA) yang menggunakan pendekatan fungsional (contohnya: fitur login wajib menggunakan email yang valid). 
+<span class="dropcap">D</span>isplin ilmu ini akan melakukan tes, analisa, rekomendasi, hingga *tuning* terhadap suatu sistem / aplikasi untuk memastikan semuanya dapat berjalan dengan baik secara teknikal (contohnya; *response time, throughput, CPU utilization*), bebeda dengan *Quality Assurance* (QA) yang menggunakan pendekatan fungsional (contohnya: fitur login wajib menggunakan email yang valid). 
 
 *Performance engineering* belum terlalu populer di Indonesia. Hanya beberapa perusahaan yang memang secara khusus mengadopsi *performance engineering*. Kebanyakan perusahaan / startup di Indonesia menggunakan *performance testing* sebagai *part of* SRE dan sebagian lainnya masuk di bagian QA. Lalu apa bedanya *performance engineering* dan *performance testing*?
 

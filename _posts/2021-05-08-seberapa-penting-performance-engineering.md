@@ -5,12 +5,12 @@ categories: performance-engineering
 description: Banyak orang yang belum menyadari bahwa *performance engineering* adalah bagian yang paling penting untuk menjaga kualitas sistem bahkan berjalannya bisnis, bagaimana bisa? Mari kita bahas.
 tags: performance
 author: awcodify
+language: bahasa-indonesia
 ---
 Banyak orang yang belum menyadari bahwa *performance engineering* adalah bagian yang paling penting untuk menjaga kualitas sistem bahkan berjalannya bisnis, bagaimana bisa? Mari kita bahas.
 <!--more-->
 
-# Seberapa Penting *Performance Engineering*?
-Mungkin saat ini sistem anda sudah berjalan dengan baik tanpa masalah. Entah karena memang sistem anda sudah baik atau saat ini beban yang dijalankan sistem belum terlalu berat saja? :) Kita tidak akan pernah tau jawabannya kecuali melalui 2 hal. Pertama, by event (atau mungkin by accident), dimana kita baru tahu dan kebakaran ketika tiba - tiba sistem kita menerima *load* yang tinggi. Kedua, melalui *performance engineering*
+<span class="dropcap">M</span>ungkin saat ini sistem anda sudah berjalan dengan baik tanpa masalah. Entah karena memang sistem anda sudah baik atau saat ini beban yang dijalankan sistem belum terlalu berat saja? :) Kita tidak akan pernah tau jawabannya kecuali melalui 2 hal. Pertama, by event (atau mungkin by accident), dimana kita baru tahu dan kebakaran ketika tiba - tiba sistem kita menerima *load* yang tinggi. Kedua, melalui *performance engineering*
 
 Sistem penerimaan pegawai baru, tiba - tiba tidak bisa diakses di hari pertama pembukaan pendaftaran. Sistem akademik, tiba - tiba sangat *lemot* saat mahasiswa berebutan mengisi KRS. *E-commerce* yang tiba - tiba `503` saat akan *checkout* di *flash sale*.  Penjualan tiket yang *error* saat mudik lebaran. Itu beberapa studi kasus dimana sistem anda akan memiliki *behaviour* yang berbeda dengan *daily*. Untuk itulah *performance engineering* sangat dibutuhkan dan beberapa pertanyaan yang sebenarnya mendasar dapat dijawab. 
 
