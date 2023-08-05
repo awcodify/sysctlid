@@ -46,7 +46,7 @@ markdown: kramdown
 highlighter: rouge
 
 paginate: 5
-paginate_path: "/page/page:num/"
+paginate_path: "/page/:num/"
 
 navigation:
     - title: Home
