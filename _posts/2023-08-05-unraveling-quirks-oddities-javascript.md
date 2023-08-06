@@ -9,7 +9,7 @@ author: Awcodify
 ---
 Get ready for a mind-bending journey through JavaScript's quirky side! Uncover unexpected syntax, strange numbers, and tricky scope behaviors. Master closures and prototypes to enhance your coding prowess. Embrace the weirdness and unravel the mysteries of JavaScript! 🚀 Explore more!
 <!--more-->
-JavaScript, the ubiquitous programming language of the web, has earned its reputation as a powerful and versatile tool. However, beneath its seemingly straightforward facade lies a world of unexpected syntax and behavior. In this article, we'll embark on a journey through the quirky corners of JavaScript, exploring strange syntax, peculiar numbers, tricky scope, and more. Brace yourself for a mind-bending tour through the weirdness that makes JavaScript so fascinating!
+<span class="dropcap">J</span>avaScript, the ubiquitous programming language of the web, has earned its reputation as a powerful and versatile tool. However, beneath its seemingly straightforward facade lies a world of unexpected syntax and behavior. In this article, we'll embark on a journey through the quirky corners of JavaScript, exploring strange syntax, peculiar numbers, tricky scope, and more. Brace yourself for a mind-bending tour through the weirdness that makes JavaScript so fascinating!
 
 ## The Weirdness Begins: Examples of Unusual Syntax
 
