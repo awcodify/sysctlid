@@ -16,7 +16,7 @@ pagination:
 			</h3>
 			{%- if post.image -%}
 				<div class="featuredImage">
-					<img src="{{ '/assets/img/' | append: post.image }}" alt="" />
+					<img src="{{ '/assets/img/' | append: post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
 				</div>
 			{%- endif -%}
 			<p>
