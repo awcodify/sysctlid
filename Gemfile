@@ -31,4 +31,4 @@ gem 'jekyll-seo-tag'
 gem "jekyll-theme-console"
 gem 'jekyll-sitemap'
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
