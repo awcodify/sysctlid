@@ -5,6 +5,7 @@ description: "Analyzing why many companies are reconsidering their microservices
 categories: Software Architecture
 tags: microservices monoliths software-architecture distributed-systems system-design architecture-patterns technical-debt scalability maintainability complexity kubernetes deployment service-mesh operational-cost organizational-structure case-studies
 author: Awcodify
+image: microservice-to-monolith.png
 ---
 The pendulum of software architecture is swinging back as companies reassess the true costs and benefits of microservices versus monolithic designs. This article explores real-world case studies of organizations that have made the journey back and the lessons they've learned.
 <!--more-->
