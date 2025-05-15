@@ -1,0 +1,76 @@
+/* Contact Form Styles */
+#contact {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#contact .pageTitle {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contactContent {
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+#contact .contactContent a {
+  text-decoration: underline;
+}
+
+#contact .contactContent a:hover {
+  text-decoration: none;
+}
+
+#contact form {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+#contact form div {
+  margin-bottom: 20px;
+}
+
+#contact form div:last-of-type {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: normal;
+}
+
+#contact form .full-width {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: inherit;
+}
+
+#contact form .full-width:focus {
+  outline: auto;
+  border-color: initial;
+  box-shadow: none;
+}
+
+#contact form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+#contact form .button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#contact form .button:hover {
+  background-color: initial;
+  transform: none;
+  box-shadow: none;
+}
