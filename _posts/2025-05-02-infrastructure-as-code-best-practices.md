@@ -9,7 +9,7 @@ author: Awcodify
 This article explores Infrastructure as Code (IaC) best practices that can help organizations streamline their deployment processes, improve reliability, and enhance collaboration between development and operations teams.
 <!--more-->
 
-<span class="dropcap">I</span>nfrastructure as Code (IaC) has transformed how organizations manage and provision their IT resources. By defining infrastructure through machine-readable configuration files rather than manual processes, teams can automate deployments, ensure consistency, and treat infrastructure with the same rigor as application code. This article explores key best practices that can help you leverage IaC effectively in your organization.
+Infrastructure as Code (IaC) has transformed how organizations manage and provision their IT resources. By defining infrastructure through machine-readable configuration files rather than manual processes, teams can automate deployments, ensure consistency, and treat infrastructure with the same rigor as application code. This article explores key best practices that can help you leverage IaC effectively in your organization.
 
 ## 1. Version Control Everything
 

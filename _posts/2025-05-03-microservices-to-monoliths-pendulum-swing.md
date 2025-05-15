@@ -10,7 +10,7 @@ featured: true
 ---
 The pendulum of software architecture is swinging back as companies reassess the true costs and benefits of microservices versus monolithic designs. This article explores real-world case studies of organizations that have made the journey back and the lessons they've learned.
 <!--more-->
-<span class="dropcap">F</span>or much of the last decade, microservices architecture has dominated the software engineering conversation. Touted as the solution to scaling both software and teams, microservices promised a future of independent deployments, polyglot persistence, and perfect domain isolation. Many organizations rushed to adopt this architectural style, breaking down their monolithic applications into dozens, hundreds, or even thousands of small, independently deployable services.
+For much of the last decade, microservices architecture has dominated the software engineering conversation. Touted as the solution to scaling both software and teams, microservices promised a future of independent deployments, polyglot persistence, and perfect domain isolation. Many organizations rushed to adopt this architectural style, breaking down their monolithic applications into dozens, hundreds, or even thousands of small, independently deployable services.
 
 Fast forward to 2025, and we're witnessing a fascinating architectural reckoning. Companies that enthusiastically embraced microservices are now consolidating services, with some moving back to a more monolithic approach entirely. This isn't a simple regression to the past but rather a nuanced reevaluation of the trade-offs involved in different architectural patterns.
 
