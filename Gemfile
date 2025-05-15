@@ -7,14 +7,22 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 3.10.0"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "github-pages", "~> 214"
+  gem "jekyll-feed", "~> 0.17.0"
+  # Using github-pages gem can lock Jekyll to an older version,
+  # so we'll use individual plugins instead
+  # gem "github-pages", "~> 214"
+  gem "jekyll-paginate"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-remote-theme"
+  gem "kramdown-parser-gfm"
+  gem "jekyll-minifier"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -27,8 +35,7 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem 'jekyll-seo-tag'
+# Theme gem (if you decide to use it locally)
 gem "jekyll-theme-console"
-gem 'jekyll-sitemap'
 
 gem "webrick", "~> 1.7"

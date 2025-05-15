@@ -29,7 +29,7 @@ github_username:  awcodify
 github: [metadata]
 
 # Build settings
-remote_theme: awcodify/long-haul
+remote_theme: awcodify/arsxy-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -38,15 +38,53 @@ plugins:
 
 # long-haul theme config
 header: normal
-url: https://sysctl.id
+date_format: "%b %-d, %Y"
 permalink: /:title/
 sass:
     style: compressed
+
 markdown: kramdown
 highlighter: rouge
-
 paginate: 5
 paginate_path: "/page/:num/"
+
+# Dark mode configuration
+dark_mode:
+  enabled: true   # If set to false, the toggle button will be hidden
+  default: true  # If true, dark mode will be the default theme
+
+# Homepage configuration
+homepage:
+  # Hero section configuration
+  hero:
+    enabled: true
+    title: "Use this Arsxy Theme"
+    subtitle: "A clean, modern Jekyll theme for tech blogs and documentation"
+    image: "hero-section.png"
+    buttons:
+      - label: "GitHub"
+        url: "https://github.com/awcodify/arsxy-theme"
+        primary: false
+  
+  # About section configuration for sidebar
+  about_widget:
+    enabled: true
+    title: "About"
+    content: "In sysctl.id, we share our knowledge and experience in software engineering, DevOps, and SRE. We aim to help you improve your skills and knowledge in these fields."
+    link_text: "More about Sysctl,id →"
+    link_url: "/about/"
+    
+  # Featured posts settings
+  featured_posts:
+    enabled: true
+    title: "Featured Posts"
+    limit: 3
+    
+  # Latest articles settings
+  latest_articles:
+    enabled: true
+    title: "Latest Articles"
+    excerpt_length: 30
 
 navigation:
     - title: Home
@@ -96,5 +134,5 @@ header_pages:
 google_analytics: G-MLFFR89WJX
 excerpt_separator: <!--more-->
 
-disqus:
-    shortname: sysctl-id
+# disqus:
+#     shortname: sysctl-id
