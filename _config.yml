@@ -57,9 +57,9 @@ dark_mode:
 homepage:
   # Hero section configuration
   hero:
-    enabled: true
-    title: "Use this Arsxy Theme"
-    subtitle: "A clean, modern Jekyll theme for tech blogs and documentation"
+    enabled: false
+    title: "Performance Engineering Insights"
+    subtitle: "Explore the latest in performance optimization, DevOps, and software architecture"
     image: "hero-section.png"
     buttons:
       - label: "GitHub"
