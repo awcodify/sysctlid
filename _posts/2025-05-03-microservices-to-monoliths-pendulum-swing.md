@@ -2,7 +2,7 @@
 layout: post
 title: "Microservices to Monoliths: The Pendulum Swing in Architecture"
 description: "Analyzing why many companies are reconsidering their microservices architecture and moving back to monoliths or service-based approaches, with real-world case studies and practical takeaways."
-categories: Software Architecture
+categories: Engineering
 tags: microservices monoliths software-architecture distributed-systems system-design architecture-patterns technical-debt scalability maintainability complexity kubernetes deployment service-mesh operational-cost organizational-structure case-studies
 author: Awcodify
 image: microservice-to-monolith.png

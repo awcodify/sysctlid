@@ -2,8 +2,8 @@
 layout: post
 title: "Hype-Driven Development: Striking a Balance Between Trend and Pragmatism"
 description: "Discover the pros and cons of Hype-Driven Development in software. Learn how to strike a balance between trends and practicality to build successful projects."
-categories: Programming Coding
-tags: hypedriven development trends pragmatism proscons softwareprojects technology innovation bestpractices softwarearchitecture projectmanagement codingstandards agilemethodology techstack techindustry softwareteams softwarestrategy developmentstrategy softwaretools softwaretips softwaretutorials insights challenges solutions decisions planning adoption implementation evaluation comparison discussions experience tips advice lifecycle choices deployment selection consideration decisions strategies insights analysis tips tutorials management deployment
+categories: Engineering
+tags: hypedriven development trends pragmatism proscons softwareprojects technology innovation bestpractices softwarearchitecture projectmanagement codingstandards agilemethodology techstack programming coding
 image: hype-driven-development.png
 author: Awcodify
 featured: true

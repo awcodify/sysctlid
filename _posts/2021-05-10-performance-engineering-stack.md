@@ -2,8 +2,8 @@
 layout: post
 title: "Menjadi Seorang Performance Engineer"
 description: Gambaran stack apa aja yang biasa digunakan dan apa saja yang dikerjakan seorang *performance engineer*
-categories: performance-engineering
-tags: performance
+categories: Performance
+tags: performance performance-engineering bahasa-indonesia
 author: awcodify 
 is_pinned: true
 language: bahasa-indonesia

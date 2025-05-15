@@ -2,8 +2,8 @@
 layout: post
 title: "Is Test-Driven Development (TDD) Worth the Effort or Does It Slow Down Development?"
 description: "Explore the pros and cons of Test-Driven Development (TDD) and its impact on development speed. Learn whether TDD is worth the effort or if it potentially slows down software development"
-categories: Programming Coding Paradigm
-tags: test-driven-development TDD-benefits TDD-drawbacks development-speed code-quality software-engineering agile-methodologies software-testing coding software engineering bestpractice
+categories: Programming
+tags: test-driven-development TDD-benefits TDD-drawbacks development-speed code-quality software-engineering agile-methodologies software-testing coding paradigm
 image: test-driven-development.png
 author: Awcodify
 featured: true

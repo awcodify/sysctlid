@@ -2,8 +2,8 @@
 layout: post
 title: Performance Engineering Definition by ChatGPT
 description: The practice of designing, implementing, and maintaining systems in a way that ensures they meet performance and scalability requirements.
-categories: Software-Engineering
-tags: performance scalability optimization
+categories: Performance
+tags: performance scalability optimization software-engineering
 author: ChatGPT
 ---
 The practice of designing, implementing, and maintaining systems in a way that ensures they meet performance and scalability requirements.

@@ -2,8 +2,8 @@
 layout: post
 title:  "Apa itu Performance Engineering ?"
 description: Displin ilmu ini akan melakukan tes, analisa, rekomendasi, hingga *tuning* terhadap suatu sistem / aplikasi untuk memastikan semuanya dapat berjalan dengan baik secara teknikal.
-categories: performance-engineering
-tags: performance 
+categories: Performance
+tags: performance performance-engineering bahasa-indonesia
 author: awcodify
 language: bahasa-indonesia
 ---

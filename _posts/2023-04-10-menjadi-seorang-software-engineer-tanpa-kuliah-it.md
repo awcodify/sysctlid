@@ -2,8 +2,8 @@
 layout: post
 title: "Menjadi Seorang Software Engineer Tanpa Kuliah IT: Mungkinkah?"
 description: Apakah harus kuliah di bidang IT untuk menjadi seorang software engineer? Berikut adalah beberapa cara untuk belajar pemrograman dan menjadi software engineer tanpa harus kuliah di bidang IT.
-categories: Karir Pemrograman
-tags: softwareengineer career development
+categories: Career
+tags: softwareengineer career development pemrograman bahasa-indonesia
 author: Awcodify
 language: bahasa-indonesia
 ---

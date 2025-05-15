@@ -2,7 +2,7 @@
 layout: post
 title: "Unraveling the Quirks and Oddities of JavaScript"
 description: "Explore the quirks of JavaScript: unexpected syntax, strange numbers, tricky scope, and more. Unravel the mysteries and enhance your coding journey with confidence. Discover now!"
-categories: Programming Coding
+categories: Programming
 tags: javascript syntax numbers closures prototypes promises type-conversion programming coding software-engineering
 image: javascript-oddities.png
 author: Awcodify

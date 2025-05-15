@@ -2,8 +2,8 @@
 layout: post
 title: "Effortless Monitoring: Part 2 - Setup Guide"
 description: "Discover streamlined setup and automated insights in Part 2 of our 'Effortless Monitoring with Kube-Prometheus' series. Learn to deploy Prometheus, Grafana, Alertmanager, and more, tailoring monitoring components for your Kubernetes environment"
-categories: Infrastructure Devops
-tags: effortless monitoring efficient automated optimized alerting solutions practices proactive configuration framework customization retention advanced incident implementation benefits
+categories: Monitoring
+tags: effortless monitoring efficient automated optimized alerting solutions practices proactive configuration framework customization retention advanced incident implementation benefits infrastructure devops
 author: Awcodify
 image: effortless-monitoring-series.png
 permalink: effortless-monitoring/2/setup-guide/

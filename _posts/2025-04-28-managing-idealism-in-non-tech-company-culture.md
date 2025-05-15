@@ -2,7 +2,7 @@
 layout: post
 title: "Managing Your Idealism in Non-Tech Company Culture"
 description: "Discover effective strategies for tech professionals to navigate, adapt, and make a positive impact while maintaining their idealism in traditional corporate environments."
-categories: Career Development
+categories: Career
 tags: idealism corporate-culture technology-advocacy change-management workplace-dynamics tech-professionals traditional-business career-growth leadership influence-strategies organizational-change adaptability communication soft-skills tech-evangelism innovation teamwork mentorship resilience networking problem-solving
 author: Awcodify
 ---

@@ -2,8 +2,8 @@
 layout: post
 title: "Chaos Engineering: Building Resilient Systems Through Controlled Failure"
 description: How deliberately introducing failures can make your systems more reliable
-categories: DevOps SRE Resilience
-tags: chaos-engineering resilience fault-tolerance disaster-recovery game-days
+categories: Reliability
+tags: chaos-engineering resilience fault-tolerance disaster-recovery game-days devops sre
 author: Awcodify
 ---
 Discover how chaos engineering practices can transform your approach to system reliability by proactively identifying weaknesses before they cause production incidents.

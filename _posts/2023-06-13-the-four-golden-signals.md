@@ -2,7 +2,7 @@
 layout: post
 title: "Observability: The Four Golden Signals"
 description: Exploring the key metrics for monitoring system performance and health.
-categories: Observability Monitoring Metrics
+categories: Monitoring
 tags: observability monitoring metrics latency traffic errors saturation
 author: Awcodify
 ---

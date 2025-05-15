@@ -2,8 +2,8 @@
 layout: post
 title: "Infrastructure as Code (IaC): Best Practices for Modern Deployment"
 description: Exploring key principles and practices for effective infrastructure automation
-categories: DevOps SRE Infrastructure
-tags: infrastructure-as-code terraform ansible pulumi gitops immutability idempotence
+categories: Infrastructure Devops
+tags: infrastructure-as-code terraform ansible pulumi gitops immutability idempotence devops sre
 author: Awcodify
 image: infrastructure-as-code.png
 ---

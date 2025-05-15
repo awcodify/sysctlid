@@ -2,8 +2,8 @@
 layout: post
 title: "VIM Go To Method Definition"
 description: Cara pergi langsung ke method yang ada di cursor pada VIM seperti VSCODE.
-categories: tutorial
-tags: coding tutorial
+categories: Tutorial
+tags: coding tutorial vim editor bahasa-indonesia
 author: awcodify@gmail.com
 ---
 Salah satu fitur paling populer yang membuat kita menjadi produktif di text-editor modern adalah kita dapat langsung menuju *method definition* saat kita ctrl+klik pada nama method. Bagaimana melakukannya di VIM?

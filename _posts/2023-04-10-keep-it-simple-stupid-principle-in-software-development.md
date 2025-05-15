@@ -2,7 +2,7 @@
 layout: post
 title: "The Power of KISS Principle in Software Development: Simplifying for Success"
 description: Discover how the KISS principle can revolutionize your coding practices. Learn how simplifying your code can improve performance and increase efficiency, and see real-world examples of the KISS principle in action.
-categories: software Engineering
+categories: Engineering
 tags: programming software engineering code development optimization efficiency bestpractices
 author: Awcodify
 ---

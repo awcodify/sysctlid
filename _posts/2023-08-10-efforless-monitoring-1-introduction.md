@@ -2,8 +2,8 @@
 layout: post
 title: "Effortless Monitoring: Part 1 - Introduction"
 description: "Discover seamless monitoring in our series: Effortless Monitoring. Join us for Part 1 - Introducing Kube-Prometheus and delve into the world of automated insights for Kubernetes environments."
-categories: Infrastructure Devops
-tags: monitoring kube-prometheus setup automated insights kubernetes visualization alerting grafana prometheus cloud-native CNCF scalability troubleshooting
+categories: Monitoring
+tags: monitoring kube-prometheus setup automated insights kubernetes visualization alerting grafana prometheus cloud-native CNCF scalability troubleshooting infrastructure devops
 image: effortless-monitoring-series.png
 author: Awcodify
 permalink: effortless-monitoring/1/introducing-kube-prometheus/
