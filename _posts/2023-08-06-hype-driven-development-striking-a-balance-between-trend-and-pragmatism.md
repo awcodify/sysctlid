@@ -6,6 +6,7 @@ categories: Programming Coding
 tags: hypedriven development trends pragmatism proscons softwareprojects technology innovation bestpractices softwarearchitecture projectmanagement codingstandards agilemethodology techstack techindustry softwareteams softwarestrategy developmentstrategy softwaretools softwaretips softwaretutorials insights challenges solutions decisions planning adoption implementation evaluation comparison discussions experience tips advice lifecycle choices deployment selection consideration decisions strategies insights analysis tips tutorials management deployment
 image: hype-driven-development.png
 author: Awcodify
+featured: true
 ---
 In the fast-paced tech world, new technologies emerge daily, promising revolutionary improvements. But beware of "Hype-Driven Development" (HDD), adopting trends without considering project suitability. Explore challenges like overcomplexity and shifting focus, and learn pragmatic strategies to strike a balance
 <!--more-->
