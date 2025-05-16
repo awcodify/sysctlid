@@ -5,7 +5,7 @@ date: 2025-05-15
 description: "Learn how to create a professional blog for free using GitHub Pages and Jekyll, with step-by-step instructions from setup to customization with the elegant Arsxy theme."
 categories: Tutorial
 tags: [github-pages, jekyll, blogging, web, static-site, arsxy-theme]
-image: build-free-blog-with-github-and-jekyll.png
+image: build-free-blog-with-github-and-jekyll.webp
 featured: true
 ---
 In today's digital landscape, having a personal blog is an excellent way to share your thoughts, showcase your expertise, and build your online presence. But hosting a blog can often come with costs and technical overhead. What if I told you that you could create a professional-looking blog completely free, with minimal technical configuration?

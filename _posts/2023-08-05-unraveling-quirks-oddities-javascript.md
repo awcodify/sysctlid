@@ -4,7 +4,7 @@ title: "Unraveling the Quirks and Oddities of JavaScript"
 description: "Explore the quirks of JavaScript: unexpected syntax, strange numbers, tricky scope, and more. Unravel the mysteries and enhance your coding journey with confidence. Discover now!"
 categories: Programming
 tags: javascript syntax numbers closures prototypes promises type-conversion programming coding software-engineering
-image: javascript-oddities.png
+image: javascript-oddities.webp
 author: Awcodify
 ---
 Get ready for a mind-bending journey through JavaScript's quirky side! Uncover unexpected syntax, strange numbers, and tricky scope behaviors. Master closures and prototypes to enhance your coding prowess. Embrace the weirdness and unravel the mysteries of JavaScript! 🚀 Explore more!

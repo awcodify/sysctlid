@@ -5,7 +5,7 @@ description: Exploring key principles and practices for effective infrastructure
 categories: Infrastructure Devops
 tags: infrastructure-as-code terraform ansible pulumi gitops immutability idempotence devops sre
 author: Awcodify
-image: infrastructure-as-code.png
+image: infrastructure-as-code.webp
 ---
 This article explores Infrastructure as Code (IaC) best practices that can help organizations streamline their deployment processes, improve reliability, and enhance collaboration between development and operations teams.
 <!--more-->

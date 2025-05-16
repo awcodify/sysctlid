@@ -5,7 +5,7 @@ description: "How platform teams are transforming the developer experience, the 
 categories: Engineering
 tags: platform-engineering devops internal-developer-platforms developer-experience infrastructure-as-code self-service automation golden-paths developer-portals kubernetes cloud-native productivity
 author: Awcodify
-image: platform-engineering.jpeg
+image: platform-engineering.webp
 ---
 In 2025, platform engineering has emerged as a critical evolution of the DevOps movement, focusing on creating self-service capabilities that empower developers while maintaining operational excellence.
 <!--more-->

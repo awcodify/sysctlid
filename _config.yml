@@ -60,7 +60,7 @@ homepage:
     enabled: false
     title: "Performance Engineering Insights"
     subtitle: "Explore the latest in performance optimization, DevOps, and software architecture"
-    image: "hero-section.png"
+    image: "hero-section.webp"
     buttons:
       - label: "GitHub"
         url: "https://github.com/awcodify/arsxy-theme"
