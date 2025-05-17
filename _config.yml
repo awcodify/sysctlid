@@ -95,8 +95,6 @@ navigation:
       url: /english
     - title: Indonesia
       url: /bahasa-indonesia
-    - title: Tags
-      url: /tags
     - title: Contact
       url: /contact
 
