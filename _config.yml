@@ -134,5 +134,16 @@ header_pages:
 google_analytics: G-MLFFR89WJX
 excerpt_separator: <!--more-->
 
-# disqus:
-#     shortname: sysctl-id
+# Giscus Comments (GitHub Discussions)
+giscus:
+  enabled: true # Set to true to enable Giscus comments
+  repo: "awcodify/sysctlid" # Format: username/repo
+  repo_id: "MDEwOlJlcG9zaXRvcnkzNjM4ODQ4MzI=" # Get this from running the giscus app
+  category: "Blog Comment" # The discussion category
+  category_id: "DIC_kwDOFbBxIM4CqQaN" # Get this from running the giscus app
+  mapping: "pathname" # How to map comments to posts
+  reactions_enabled: "1" # Enable reactions
+  theme: "preferred_color_scheme" # Theme options: light, dark, preferred_color_scheme
+  emit_metadata: "0"
+  input_position: "top" # Position of the comment box
+  lang: "en" # Language for the comments interface
