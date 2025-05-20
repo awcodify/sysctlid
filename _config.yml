@@ -127,6 +127,12 @@ header_pages:
   - about.md
   - contact.md
 
+favicon:
+  enabled: true                # Set to false to disable favicons completely
+  icon16: "/assets/images/favicon/favicon-16x16.png"
+  icon32: "/assets/images/favicon/favicon-32x32.png"
+  apple_touch_icon: "/assets/images/favicon/apple-touch-icon.png"
+  manifest: "/assets/images/favicon/site.webmanifest"
 # style: terminal # dark (default), light or hacker
 # listen_for_clients_preferred_style: true # false (default) or true
 google_analytics: G-MLFFR89WJX
