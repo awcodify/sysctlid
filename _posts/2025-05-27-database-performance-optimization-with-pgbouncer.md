@@ -14,6 +14,7 @@ tags:
 ---
 
 In modern applications, database connections are often one of the first performance bottlenecks you'll encounter. Each connection to your PostgreSQL database consumes memory and CPU resources, and creating new connections is costly. As your application scales, poorly managed database connections can degrade performance or even crash your database entirely. This is where connection pooling comes in..
+<!--more-->
 
 PgBouncer is a lightweight connection pooler for PostgreSQL that can dramatically improve your application's performance and scalability by efficiently managing database connections. In this article, I'll walk you through why connection pooling matters and how to implement PgBouncer in your infrastructure.. 
 

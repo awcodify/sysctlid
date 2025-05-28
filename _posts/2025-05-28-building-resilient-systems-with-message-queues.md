@@ -15,6 +15,7 @@ image: message-queues-rabbitmq.webp
 ---
 
 In today's interconnected systems landscape, applications often need to communicate with each other without direct dependencies. Whether you're processing background jobs, distributing events across services, or balancing loads, message queues provide an elegant solution. They act as intermediaries that decouple your services, improving system resilience and scalability.
+<!--more-->
 
 In this article, we'll explore how to implement RabbitMQ, one of the most popular message brokers, to build more resilient systems.
 

@@ -13,7 +13,7 @@ tags:
 ---
 
 In today's infrastructure landscape, applications rely on numerous secrets: API keys, database credentials, encryption keys, and more. Hardcoding these secrets into your codebase is not just a security risk—it's a maintenance nightmare. When credentials need rotation, you'll find yourself updating code across multiple services and redeploying everything. This is where a dedicated secrets management solution becomes essential.
-
+<!--more-->
 HashiCorp Vault is an industry-standard tool that solves this problem by centralizing secret management with strong access controls. In this guide, I'll walk you through implementing Vault in your infrastructure, from basic setup to advanced configurations.
 
 ## The Problem with Traditional Secret Management
