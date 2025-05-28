@@ -1,28 +1,89 @@
 ---
 layout: default
-title: Artikel Bahasa Indonesia
+title: Articles in English
 permalink: /english/
 pagination: 
   enabled: true
 ---
 
-<div class="home" id="home">
-	<h1 class="pageTitle">Article in English</h1>
-	<div class="posts noList">
-		{%- for post in site.posts -%}
-		{%- unless post.language contains 'bahasa-indonesia' -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-			</h3>
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
-		{%- endunless -%}
-		{%- endfor -%}
+<link rel="stylesheet" href="/assets/css/language-pages.css">
+
+<div class="home language-page" id="home">
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-flag">
+				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 60 30">
+					<rect width="60" height="30" fill="#00247d"/>
+					<path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/>
+					<path d="M0,0 L60,30 M60,0 L0,30" stroke="#cf142b" stroke-width="4"/>
+					<path d="M30,0 L30,30 M0,15 L60,15" stroke="#fff" stroke-width="10"/>
+					<path d="M30,0 L30,30 M0,15 L60,15" stroke="#cf142b" stroke-width="6"/>
+				</svg>
+			</div>
+			<div class="page-title-content">
+				<h1 class="pageTitle">Articles in English</h1>
+				<p class="page-subtitle">Deep dives into system engineering, performance optimization, and modern tech solutions</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="posts-grid">
+		{%- assign english_posts = site.posts | where_exp: "post", "post.language != 'bahasa-indonesia'" -%}
+		{%- if english_posts.size > 0 -%}
+			{%- for post in english_posts -%}
+			<article class="post-card{% unless post.image %} no-image{% endunless %}">
+				<a href="{{ post.url | relative_url }}" class="post-card-link">
+					<div class="post-card-content">
+						{%- if post.image -%}
+						<div class="post-image">
+							<img 
+								src="{{ '/assets/images/' | append: post.image | relative_url }}" 
+								alt="{{ post.title }}" 
+								loading="{% if forloop.index <= 3 %}eager{% else %}lazy{% endif %}"
+								onerror="this.parentElement.parentElement.style.display='none'; this.parentElement.parentElement.parentElement.parentElement.classList.add('no-image');"
+							/>
+						</div>
+						{%- else -%}
+						<div class="post-image-placeholder css-featured-image" data-pattern="{{ post.title | size | modulo: 6 }}" data-title="{{ post.title }}">
+							<div class="css-image-title">{{ post.title | truncatewords: 3 | upcase }}</div>
+						</div>
+						{%- endif -%}
+						
+						<div class="post-meta">
+							<span class="post-date">
+								<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+									<path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+								</svg>
+								{{ post.date | date: '%B %d, %Y' }}
+							</span>
+							{%- if post.categories.size > 0 -%}
+							<div class="post-categories">
+								{%- for category in post.categories -%}
+								<span class="category-tag">{{ category }}</span>
+								{%- endfor -%}
+							</div>
+							{%- endif -%}
+						</div>
+						
+						<h3 class="post-title">{{ post.title }}</h3>
+						
+						<p class="post-excerpt">
+							{%- if post.description -%}
+								{{ post.description | truncate: 160 }}
+							{%- else -%}
+								{{ post.excerpt | strip_html | truncate: 160 }}
+							{%- endif -%}
+						</p>
+					</div>
+				</a>
+			</article>
+			{%- endfor -%}
+		{%- else -%}
+			<div class="no-posts">
+				<h3>No English articles found</h3>
+				<p>Check back later for articles in English.</p>
+			</div>
+		{%- endif -%}
 	</div>
 
 

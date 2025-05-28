@@ -6,23 +6,82 @@ pagination:
   enabled: true
 ---
 
-<div class="home" id="home">
-	<h1 class="pageTitle">Artikel Bahasa Indonesia</h1>
-	<div class="posts noList">
-		{%- for post in site.posts -%}
-		{%- if post.language contains 'bahasa-indonesia' -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-			</h3>
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
+<link rel="stylesheet" href="/assets/css/language-pages.css">
+
+<div class="home language-page" id="home">
+	<div class="page-header">
+		<div class="page-header-content">
+			<div class="page-flag">
+				<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 60 30">
+					<rect x="0" y="0" width="60" height="30" fill="none" stroke="#ddd" stroke-width="0.5"/>
+					<rect x="0" y="0" width="60" height="15" fill="#ff0000"/>
+					<rect x="0" y="15" width="60" height="15" fill="#ffffff"/>
+				</svg>
+			</div>
+			<div class="page-title-content">
+				<h1 class="pageTitle">Artikel Bahasa Indonesia</h1>
+				<p class="page-subtitle">Pembahasan mendalam tentang rekayasa sistem, optimasi performa, dan solusi teknologi terkini</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="posts-grid">
+		{%- assign indonesian_posts = site.posts | where_exp: "post", "post.language contains 'bahasa-indonesia'" -%}
+		{%- if indonesian_posts.size > 0 -%}
+			{%- for post in indonesian_posts -%}
+			<article class="post-card{% unless post.image %} no-image{% endunless %}">
+				<a href="{{ post.url | relative_url }}" class="post-card-link">
+					<div class="post-card-content">
+						{%- if post.image -%}
+						<div class="post-image">
+							<img 
+								src="{{ '/assets/images/' | append: post.image | relative_url }}" 
+								alt="{{ post.title }}" 
+								loading="{% if forloop.index <= 3 %}eager{% else %}lazy{% endif %}"
+								onerror="this.parentElement.parentElement.style.display='none'; this.parentElement.parentElement.parentElement.parentElement.classList.add('no-image');"
+							/>
+						</div>
+						{%- else -%}
+						<div class="post-image-placeholder css-featured-image" data-pattern="{{ post.title | size | modulo: 6 }}" data-title="{{ post.title }}">
+							<div class="css-image-title">{{ post.title | truncatewords: 3 | upcase }}</div>
+						</div>
+						{%- endif -%}
+						
+						<div class="post-meta">
+							<span class="post-date">
+								<svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24">
+									<path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+								</svg>
+								{{ post.date | date: '%d %B %Y' }}
+							</span>
+							{%- if post.categories.size > 0 -%}
+							<div class="post-categories">
+								{%- for category in post.categories -%}
+								<span class="category-tag">{{ category }}</span>
+								{%- endfor -%}
+							</div>
+							{%- endif -%}
+						</div>
+						
+						<h3 class="post-title">{{ post.title }}</h3>
+						
+						<p class="post-excerpt">
+							{%- if post.description -%}
+								{{ post.description | truncate: 160 }}
+							{%- else -%}
+								{{ post.excerpt | strip_html | truncate: 160 }}
+							{%- endif -%}
+						</p>
+					</div>
+				</a>
+			</article>
+			{%- endfor -%}
+		{%- else -%}
+			<div class="no-posts">
+				<h3>Belum ada artikel Bahasa Indonesia</h3>
+				<p>Silakan kembali lagi untuk artikel dalam Bahasa Indonesia.</p>
+			</div>
 		{%- endif -%}
-		{%- endfor -%}
 	</div>
 
 
