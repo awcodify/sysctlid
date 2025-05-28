@@ -89,14 +89,19 @@ homepage:
 navigation:
     - title: Home
       url: /
+      icon: home
     - title: About
       url: /about
+      icon: info
     - title: English
       url: /english
-    - title: Indonesia
+      icon: flag-uk
+    - title: Bahasa
       url: /bahasa-indonesia
+      icon: flag-id
     - title: Contact
       url: /contact
+      icon: mail
 
 social:
     github: awcodify
@@ -126,6 +131,13 @@ header_pages:
   - tags.html
   - about.md
   - contact.md
+
+header_logo:
+  enabled: true
+  image: "/assets/images/logo.png"
+  alt: "Performance engineering insights" 
+  height: 60 # Logo height in pixels
+  dark_mode_class: "selective-lighten" # Options: original, inverted, selective-lighten
 
 favicon:
   enabled: true                # Set to false to disable favicons completely
