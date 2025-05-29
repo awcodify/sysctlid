@@ -93,12 +93,15 @@ navigation:
     - title: About
       url: /about
       icon: info
-    - title: English
-      url: /english
-      icon: flag-uk
-    - title: Bahasa
-      url: /bahasa-indonesia
-      icon: flag-id
+    - title: Languages
+      icon: globe
+      children:
+      - title: English
+        url: /english
+        icon: flag-uk
+      - title: Bahasa
+        url: /bahasa-indonesia
+        icon: flag-id
     - title: Contact
       url: /contact
       icon: mail
