@@ -10,6 +10,7 @@ tags:
   - secrets management
   - devsecops
   - security
+image: secure-credential-with-hashicorp-vault.webp
 ---
 
 In today's infrastructure landscape, applications rely on numerous secrets: API keys, database credentials, encryption keys, and more. Hardcoding these secrets into your codebase is not just a security risk—it's a maintenance nightmare. When credentials need rotation, you'll find yourself updating code across multiple services and redeploying everything. This is where a dedicated secrets management solution becomes essential.
