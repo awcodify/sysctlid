@@ -3,6 +3,8 @@ layout: default
 title: About
 permalink: /about/
 ---
+{% include image.html url="welcome-to-sysctlid.webp" width="50%" alt="Welcome to sysctl.id" caption="" %}
+
 Welcome to sysctl.id, your go-to destination for all things related to performance engineering, infrastructure engineering, and software engineering. We are passionate about empowering engineers and developers with valuable insights, best practices, and cutting-edge knowledge to optimize their systems and applications.
 
 ## Our Mission
