@@ -70,9 +70,9 @@ homepage:
   about_widget:
     enabled: true
     title: "About"
-    content: "In sysctl.id, we share our knowledge and experience in software engineering, DevOps, and SRE. We aim to help you improve your skills and knowledge in these fields."
-    link_text: "More about Sysctl,id →"
-    link_url: "/about/"
+    content: "<h2>Slash Your Cloud Bills by 60%! 🚀</h2> Master performance engineering techniques to optimize costs, boost efficiency, and scale smarter."
+    link_text: "Get Free Assessment →"
+    link_url: "https://optimize.sysctl.id/"
     
   # Featured posts settings
   featured_posts:
