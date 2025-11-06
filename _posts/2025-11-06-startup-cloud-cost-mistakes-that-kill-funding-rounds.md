@@ -5,7 +5,7 @@ description: "Discover the critical cloud cost mistakes that can derail your sta
 categories: Business
 tags: startup cloud-costs funding venture-capital cost-optimization financial-management investor-relations cloud-strategy business-growth scalability unit-economics
 author: Awcodify
-image: startup-cloud-costs.png
+image: startup-cloud-costs.webp
 featured: true
 ---
 
