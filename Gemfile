@@ -38,7 +38,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Theme gem (if you decide to use it locally)
 gem "jekyll-theme-console"
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
 
 # Required for Ruby 3.4+ compatibility
 gem "base64"
