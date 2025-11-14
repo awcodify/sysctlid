@@ -87,24 +87,18 @@ homepage:
     excerpt_length: 30
 
 navigation:
-    - title: Home
-      url: /
-      icon: home
     - title: About
       url: /about
-      icon: info
     - title: Languages
       icon: globe
       children:
       - title: English
         url: /english
-        icon: flag-uk
       - title: Bahasa
         url: /bahasa-indonesia
         icon: flag-id
     - title: Contact
       url: /contact
-      icon: mail
 
 social:
     github: awcodify
