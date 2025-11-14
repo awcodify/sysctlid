@@ -51,7 +51,7 @@ paginate_path: "/page/:num/"
 # Dark mode configuration
 dark_mode:
   enabled: true   # If set to false, the toggle button will be hidden
-  default: true  # If true, dark mode will be the default theme
+  default: false  # If true, dark mode will be the default theme
 
 # Homepage configuration
 homepage:
@@ -90,13 +90,11 @@ navigation:
     - title: About
       url: /about
     - title: Languages
-      icon: globe
       children:
       - title: English
         url: /english
       - title: Bahasa
         url: /bahasa-indonesia
-        icon: flag-id
     - title: Contact
       url: /contact
 
