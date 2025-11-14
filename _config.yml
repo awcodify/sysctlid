@@ -93,8 +93,10 @@ navigation:
       children:
       - title: English
         url: /english
+        icon: flag-uk
       - title: Bahasa
         url: /bahasa-indonesia
+        icon: flag-id
     - title: Contact
       url: /contact
 
