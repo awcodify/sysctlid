@@ -69,8 +69,8 @@ homepage:
   # About section configuration for sidebar
   about_widget:
     enabled: true
-    title: "About"
-    content: "<h2>Slash Your Cloud Bills by 60%! 🚀</h2> Master performance engineering techniques to optimize costs, boost efficiency, and scale smarter."
+    title: "Slash Your Cloud Bills by 60%! 🚀"
+    content: "Master performance engineering techniques to optimize costs, boost efficiency, and scale smarter."
     link_text: "Get Free Assessment →"
     link_url: "https://optimize.sysctl.id/"
     
