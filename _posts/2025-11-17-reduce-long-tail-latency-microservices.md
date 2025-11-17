@@ -131,6 +131,6 @@ Operationalize with playbooks:
 
 See related posts on this site:
 
-- [The Four Golden Signals of Monitoring](/2023-06-13-the-four-golden-signals)
-- [Redis Caching Patterns](/2025-05-19-boost-application-speed-with-redis-caching)
-- [PgBouncer Connection Pooling Guide](/2025-05-27-database-performance-optimization-with-pgbouncer)
+- [The Four Golden Signals of Monitoring](/the-four-golden-signals)
+- [Redis Caching Patterns](/boost-application-speed-with-redis-caching)
+- [PgBouncer Connection Pooling Guide](/database-performance-optimization-with-pgbouncer)
