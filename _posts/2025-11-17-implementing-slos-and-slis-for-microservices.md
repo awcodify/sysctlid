@@ -6,6 +6,7 @@ categories: Engineering
 tags: slo, sli, sre, devops, microservices, monitoring, reliability, observability, performance, architecture, best-practices
 author: Awcodify
 image: slos-and-slis-for-microservices.webp
+featured: true
 ---
 
 Are you drowning in dashboards? Do you have thousands of metrics but no clear understanding of whether your service is actually reliable? If so, you're not alone. In the world of microservices, it's easy to collect data. The real challenge is turning that data into a meaningful measure of service health.

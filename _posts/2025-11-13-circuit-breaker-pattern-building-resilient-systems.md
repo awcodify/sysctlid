@@ -6,7 +6,6 @@ categories: Engineering
 tags: resilience fault-tolerance distributed-systems design-patterns reliability performance-engineering sre stability architecture best-practices
 author: Awcodify
 image: circuit-breaker.webp
-featured: true
 ---
 
 In electrical systems, a circuit breaker protects against overload by breaking the circuit when current exceeds safe levels. The same concept applies to software systems. The Circuit Breaker pattern is a critical design pattern that prevents cascading failures and builds resilience into distributed systems.
