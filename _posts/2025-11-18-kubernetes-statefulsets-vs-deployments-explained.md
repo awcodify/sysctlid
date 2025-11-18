@@ -37,14 +37,15 @@ Before diving into the comparison, let's briefly understand what these controlle
 ### 2. Scaling Behavior
 
 **Deployments:**
-- Scale up/down instantly
-- No ordering guarantees during scaling
-- All pods can be replaced simultaneously
+- Scale up/down instantly without ordering guarantees
+- Rolling updates follow configured maxSurge and maxUnavailable parameters
+- All pods can be replaced simultaneously during updates
 
 **StatefulSets:**
 - Scale one pod at a time
 - Strict ordering: pod-0 before pod-1, etc.
 - Rolling updates follow the same order
+- When StatefulSet is deleted (cascading delete), pods terminate in parallel
 
 ### 3. Storage Management
 
@@ -57,6 +58,7 @@ Before diving into the comparison, let's briefly understand what these controlle
 - Persistent Volume Claims (PVCs) automatically created
 - Each pod gets its own persistent storage
 - Storage persists across pod rescheduling
+- PVCs and PVs are not automatically deleted when StatefulSet is removed—must be manually cleaned up
 
 ### 4. Update Strategies
 
